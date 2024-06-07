@@ -8,42 +8,12 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/imageView_bg"
+
+
+    <FrameLayout
+        android:id="@+id/mainFrame"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/background_intro">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/textView1_header"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-black"
-                android:text="Food"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"
-                android:textSize="70sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="54dp" />
-            <ImageView
-                android:id="@+id/imageView_logo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="40dp"
-                android:layout_centerInParent="true"
-                app:srcCompat="@drawable/logo"
-                tools:layout_editor_absoluteY="40dp" />
-
-
-        </LinearLayout>
-    </RelativeLayout>
-
+        android:layout_height="match_parent"/>
 
 
 </RelativeLayout>
